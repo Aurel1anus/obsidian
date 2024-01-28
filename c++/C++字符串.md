@@ -3,6 +3,7 @@
 
 cpp string [cplusplus.com/reference/string/string/](https://cplusplus.com/reference/string/string/)
 
+```
 
 #include <iostream>
 #include <string>
@@ -35,3 +36,5 @@ int main() {
 
 	std::cin.get();
 }
+```
+#空终止符

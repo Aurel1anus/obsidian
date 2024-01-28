@@ -7,7 +7,7 @@ new是一个操作符。
 
 ==相当于==
 ```
-`Entity* e = new Entity();`
+Entity* e = new Entity();`
 ```
 
 这两个的唯一区别就是上面只分配了内存，而下面的还调用了构造函数。
