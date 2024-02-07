@@ -102,3 +102,20 @@ std::cout << result3 << std::endl;//ok to work
 	}
 ```
 #this
+
+
+```
+ostream& operator<<(ostream& stream, const vector<int> nums) {
+    for (int x : nums) {
+        stream << x <<",";
+    }
+    return stream;
+}
+
+ostream& operator<<(ostream& stream, const vector<vector<int>> nums) {
+    for (auto x : nums) {
+        stream << x << endl;
+    }
+    return stream;
+}
+```
